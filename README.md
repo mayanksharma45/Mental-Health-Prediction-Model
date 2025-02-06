@@ -13,7 +13,7 @@ The following steps were taken to preprocess the dataset before model training:
     * Converted data types to numerical formats.
 
 2. **Feature Engineering:**
-    * Transformed or scaled numerical features using standardization to ensure they have similar ranges.  *Specify the scaling method used.*
+    * Transformed or scaled numerical features using standardization to ensure they have similar ranges. 
 
 3. **Encoding Categorical Variables:**
     * Converted categorical features into numerical representations using label encoding and mapping method.
@@ -23,11 +23,10 @@ The following steps were taken to preprocess the dataset before model training:
 
 ## 2. Model Selection Rationale
 
-*Describe the model(s) you considered and why you chose the final model.*  For example:
 
-    * **Model Candidates:**  We explored several models, including Logistic Regression, Random Forest, Gradient Boosting, and Support Vector Machines.
+    * **Model Candidates:**  We explored several models, including Logistic Regression, Random Forest, Gradient Boosting, AdaBoostClassifier, ChatBoostClassifier, XGB Classifier and Support Vector Machines.
     * **Rationale:** We selected AdaBoost Classifier because it provided the best performance in terms of accuracy, precision, recall, F1-score on the test set. 
-    It also offered a good balance between performance and interpretability.
+                    It also offered a good balance between performance and interpretability.
 
 ## 3. How to Run the Inference Script (Streamlit App)
 
